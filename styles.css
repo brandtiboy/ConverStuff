@@ -1,0 +1,128 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.wrapper {
+    margin: 30% auto;
+}
+
+.header {
+    background-color: #69CA7E;
+}
+
+.header p {
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    padding: 20px;
+}
+
+h1 {
+    text-align: center;
+    margin-bottom: 30px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 700;
+    font-size: 24px;
+    color: #313131;
+}
+
+p {
+    font-family: 'Open Sans', sans-serif;
+    font-style: italic;
+    color: #fff;
+}
+
+.box {
+    max-width: 340px;
+    height: 65px;
+    border-radius: 5px;
+    padding: 11px 0;
+    margin: 11px auto;
+}
+
+.convert-text {
+    display: inline-block;
+    margin-left: 165px;
+}
+
+.convert-style {
+    width: 120px;
+    margin-left: 10px;
+    margin-top: 20px;
+    background: transparent;
+    border: none;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+}
+
+input[type=number] {
+    color: white;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+::placeholder {
+    color: rgba(255, 255, 255, 0.4);
+    font-style: italic;
+    font-size: 1.1em;
+}
+
+:focus {
+    outline-color: transparent;
+    outline-style: none;
+}
+
+#lb {
+    background-color: #69B8CA;
+}
+
+#oz {
+    background-color: #CA9869;
+}
+
+#ton {
+    background-color: #69CA7E;
+}
+
+#kg {
+    background-color: #CAC669;
+}
+
+@media (min-width: 520px) {
+    .wrapper {
+        margin: 10% auto;
+    }
+
+    .box {
+        max-width: 500px;
+        height: 65px;
+        border-radius: 5px;
+        padding: 11px 0;
+        margin: 11px auto;
+    }
+    
+    .convert-text {
+        display: inline-block;
+        margin-left: 260px;
+    }
+    
+    .convert-style {
+        width: 180px;
+        margin-left: 10px;
+        margin-top: 20px;
+        background: transparent;
+        border: none;
+        border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+    }
+
+    ::placeholder {
+        color: rgba(255, 255, 255, 0.4);
+        font-style: italic;
+        font-size: 1.2em;
+      }
+  }
